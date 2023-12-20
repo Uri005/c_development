@@ -12,7 +12,7 @@ class SecondClass{
 void SecondClass::printArray(char msg, FirstClass arrayClass[20]){
   int limite = (sizeof(arrayClass)/sizeof(arrayClass[0]));
   for (int i = 0; i < limite; i++){
-    cout<<arrayClass[i]<<endl;
+    //cout<<arrayClass[i]<<endl;
   }
 }
 
