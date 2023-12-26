@@ -20,10 +20,14 @@ private:
 int main() {
     list<Persona> listaPersonas;
 
+    Persona otherPerson = Persona("Mateo", 31);
+
     // Agregar personas a la lista
     listaPersonas.push_back(Persona("Juan", 25));
     listaPersonas.push_back(Persona("María", 30));
     listaPersonas.push_back(Persona("Pedro", 28));
+
+    listaPersonas.push_front(otherPerson);
 
     // Mostrar los datos de todas las personas en la lista
     cout << "Datos de las personas en la lista:" << endl;
